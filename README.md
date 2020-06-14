@@ -1,5 +1,23 @@
 # Inpaint PConv - UPB
 
+<<<<<<< HEAD
+<p align="center">
+	<img src="results/0.png" alt="sample 0" />
+</p>
+
+<p align="center">
+	<img src="results/1.png" alt="sample 1" />
+</p>
+
+<p align="center">
+	<img src="results/2.png" alt="sample 2" />
+</p>
+
+<p align="center">
+	<img src="results/5.png" alt="sample 3" />
+</p>
+
+
 
 ## Pre-requisite
 ```shell
@@ -9,6 +27,17 @@ cd snapshots/ckpt/
 
 Download a pre-trained module on nuScenes from <a href="https://drive.google.com/drive/folders/1PgYO_5Z8z8heR4jA-6PmODHOf259z0RX?usp=sharing">here</a>.
 
+=======
+
+## Pre-requisite
+```shell
+mkdir -p snapshots/ckpt/
+cd snapshots/ckpt/
+```
+
+Download a pre-trained module on nuScenes from <a href="https://drive.google.com/drive/folders/1PgYO_5Z8z8heR4jA-6PmODHOf259z0RX?usp=sharing">here</a>.
+
+>>>>>>> e35c2c0e960a5c8f87c38e4a2a124348cacbe691
 ```shell
 mkdir -p pipeline/models/monodepth
 cd pipeline/models/monodepth
@@ -72,7 +101,11 @@ python3 scores.py --model 2000000.pth
 
 View inpainting results
 ```shell
+<<<<<<< HEAD
+python3 scripts/test_model.py --model 2000000.pth
+=======
 python3 scripts/results.py --model 2000000.pth
+>>>>>>> e35c2c0e960a5c8f87c38e4a2a124348cacbe691
 ```
 
 ## Pre-trained model on UPB
