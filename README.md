@@ -1,6 +1,5 @@
 # Inpaint PConv - UPB
 
-<<<<<<< HEAD
 <p align="center">
 	<img src="results/0.png" alt="sample 0" />
 </p>
@@ -16,7 +15,6 @@
 <p align="center">
 	<img src="results/5.png" alt="sample 3" />
 </p>
-
 
 
 ## Pre-requisite
