@@ -16,15 +16,6 @@
 	<img src="results/5.png" alt="sample 3" />
 </p>
 
-
-## Pre-requisite
-```shell
-mkdir -p snapshots/ckpt/
-cd snapshots/ckpt/
-```
-
-Download a pre-trained module on nuScenes from <a href="https://drive.google.com/drive/folders/1PgYO_5Z8z8heR4jA-6PmODHOf259z0RX?usp=sharing">here</a>.
-
 =======
 
 ## Pre-requisite
